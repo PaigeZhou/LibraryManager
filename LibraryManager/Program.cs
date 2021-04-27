@@ -10,6 +10,9 @@ namespace LibraryManager
     {
         static void Main(string[] args)
         {
+            Manager manager = new Manager();
+            manager.Dl();
+            Console.ReadKey();
         }
     }
 }
